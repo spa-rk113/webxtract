@@ -1,0 +1,13 @@
+{
+  "name": "webxtract-universal-inspector",
+  "version": "4.3.1",
+  "private": true,
+  "description": "Local-first deep website crawler with expanded limits and detailed scan/ZIP progress",
+  "scripts": {
+    "start": "node server.js",
+    "setup-browser": "npm install --no-save playwright && npx playwright install chromium"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
